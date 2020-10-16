@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Sara Majeed</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet"/>
   </head>
   <body>
-
     <!-- BEGIN NAVBAR -->
     <div class="navbar">
       <a href="#about">About</a>
+      <a href="#internship">My Internship</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      <!-- <a href="#contact">Contact</a> -->
     </div>
     <!-- END NAVBAR -->
 
     <div class="container">
-
       <!-- HEADER -->
       <div class="jumbotron">
-          
         <div class="jumbotron-text">
           <h1>Sara Majeed</h1>
           <p>Computer Science student</p>
@@ -30,21 +35,31 @@
         <div class="jumbotron-social">
           <ul class="ul-social">
             <li class="li-social-links">
-              <a class="social" href="https://github.com/SaraMajeed " target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a
+                class="social"
+                href="https://github.com/SaraMajeed "
+                target="_blank"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
             </li>
             <li class="li-social-links">
-              <a class="social" href="https://www.linkedin.com/in/sara-majeed-633950196/" target="https://www.linkedin.com/in/sara-majeed-633950196/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a
+                class="social"
+                href="https://www.linkedin.com/in/sara-majeed-633950196/"
+                target="https://www.linkedin.com/in/sara-majeed-633950196/"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
             </li>
           </ul>
         </div>
         <div id="down-arrow">
-          <span><a href="#about"><i class="fa fa-chevron-down" aria-hidden="true"></i></a></span>
+          <span
+            ><a href="#about"
+              ><i class="fa fa-chevron-down" aria-hidden="true"></i></a
+          ></span>
         </div>
-          
       </div>
       <!-- END HEADER -->
-
-
 
       <!-- BEGIN ABOUT -->
       <div class="row white box-shadow">
@@ -55,12 +70,133 @@
             <h2>About</h2>
           </div>
           <div class="content-body">
-            <p>I'm a Computer Science student at Goldsmiths looking for internship opportunities. I have completed a number of projects during my time at university that has allowed me to gain skills in both programming and teamwork. I would love the opportunity to be involved in a real-world project, improve/learn new skills and gain a new insight into the industry. </p>
+            <p>
+              I'm a Computer Science 3rd year student at Goldsmiths looking for
+              graduate opportunities. I have completed a number of projects
+              during my time at university that has allowed me to gain skills in
+              both programming and teamwork. would love the opportunity to be
+              involved in a real-world project, improve/learn new skills and
+              gain a new insight into the industry.
+            </p>
           </div>
         </div>
         <div class="side-content"></div>
       </div>
       <!-- END ABOUT -->
+
+      <!-- BEGIN INTERNSHIP -->
+      <div class="row box-shadow">
+        <div class="side-content-sm"></div>
+        <div class="main-content-lg">
+          <div class="content-header">
+            <a class="anchor" name="internship"></a>
+            <h2>My Internship - Agilis Ai</h2>
+            <h3>Software Development Intern</h3>
+            <p>All code belongs to Agilis Ai</p>
+          </div>
+          <div class="content-body">
+
+            <!-- CARD #1 -->
+            <div class="project-card">
+              <div class="project-content">
+                <h4>Dynamic Profile Modal</h4>
+                <p>
+                  One of the many tasks that was given to me was the development
+                  of a profile modal for a logged in user. The profile would
+                  display their name, photo, role in the *ship Startup event,
+                  registered email, profile creation date/time, last sign in
+                  date/time and their system role. All this information could
+                  not possibly be hardcoded for every existing user, even more
+                  so for new users. Therefore, I pulled the data from the
+                  firestore database and used embedded javascript to insert the
+                  required data into HTML code using innerHTML. This property
+                  would then be inserted into the main HTML page at runtime.
+                </p>
+              </div>
+              <div class="project-image">
+                <!-- Slideshow container -->
+                <div class="w3-content w3-display-container slider" id="div1">
+                  <img class="mySlides" src="image/profile1.png" style="width:100%">
+                  <img class="mySlides" src="image/profile2.png" style="width:100%">
+                  <img class="mySlides" src="image/getDataCode.png" style="width:100%">
+                  <img class="mySlides" src="image/htmlCode.png" style="width:100%">
+                
+                  <a class="w3-btn-floating w3-display-left" style="opacity:0.3" onclick="plusDivs(this,-1)">&#10094;</a>
+                  <a class="w3-btn-floating w3-display-right" style="opacity:0.3" onclick="plusDivs(this,1)">&#10095;</a>
+                </div>
+              </div>
+              
+            </div>
+
+            <!-- CARD #2 -->
+            <div class="project-card">
+              
+              <div class="project-content">
+                <h4>Test Plans</h4>
+                <p>
+                  A crucial aspect of an agile software development process involves continuous testing of software 
+                  components after they have been built. Our task as a group was to create a test plan as well as 
+                  carry out these tests on the entire web app. This included login verification, correct data displayed 
+                  on all pages, responsive design, among others. Tests were created by writing, for each test, a case type,
+                  test case, test data, expected outcome, actual outcome, result (pass/fail), any issues (if any), as well
+                  as actions to take and asignee for this task. This allowed us to see exactly what we needed to fix before the
+                  launch or identify anything important that was overlooked.
+                </p>
+              </div>
+              <div class="project-image">
+                <!-- Slideshow container -->
+                <div class="w3-content w3-display-container slider" id="div2">
+                  <!-- <a href="image/testPlan1.png" target="_blank"><img src="image/testPlan1.png" alt="Image of map" class="planImg2"></a> -->
+                  <img class="mySlides" src="image/testPlan1.png" style="width:100%">
+                  <img class="mySlides" src="image/testPlan2.png" style="width:100%">
+                  <img class="mySlides" src="image/testPlan3.png" style="width:100%">
+                
+                  <a class="w3-btn-floating w3-display-left" style="opacity:0.3" onclick="plusDivs(this,-1)">&#10094;</a>
+                  <a class="w3-btn-floating w3-display-right" style="opacity:0.3" onclick="plusDivs(this,1)">&#10095;</a>
+                </div>
+
+                  <!-- <div class="mySlides fade"> -->
+                    <!-- <div class="numbertext">2 / 4</div> -->
+                    <!-- <img src="image/profile2.png"  /> -->
+                    <!-- <div class="text">Second example of profile design</div> -->
+                  <!-- </div> -->
+
+                  <!-- <div class="mySlides fade"> -->
+                    <!-- <div class="numbertext">3 / 4</div> -->
+                    <!-- <img src="image/getDataCode.png" /> -->
+                    <!-- <div class="text">This is the function used to pull the data from the database.</div> -->
+                  <!-- </div> -->
+
+                  <!-- <div class="mySlides fade"> -->
+                    <!-- <div class="numbertext">4 / 4</div> -->
+                    <!-- <img src="image/htmlCode.png"  />
+                    <br> -->
+                    <!-- <div class="text">This is the function which gets the html element, creates a new div, and 
+                      defines the html code that will be used to create the profile with all the necessary data
+                      that is linked to the current logged in user. 
+                    </div> -->
+                  <!-- </div> -->
+
+                  <!-- Next and previous buttons -->
+                  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div> -->
+                <!-- <br /> -->
+
+                <!-- The dots/circles -->
+                <!-- <div style="text-align: center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                </div> -->
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="side-content-sm"></div>
+      </div>
 
       <!-- BEGIN PROJECTS -->
       <div class="row">
@@ -74,41 +210,77 @@
             <!-- CARD #1 -->
             <div class="project-card">
               <div class="project-image">
-                <img src= "image/harryPotter.PNG">
+                <img src="image/harryPotter.PNG" />
               </div>
               <div class="project-content">
                 <h4>Harry Potter Newsletter</h4>
-                <p>This project was completed as part of our Web Development module. HTML, CSS and Javascript was used to create a 5 page newsletter that was responsive. The pages included: Homepage, JK Rowling, Harry Potter, Fantastic Beasts, The Cursed Child. Each page featured a list of articles that was revelant to the chosen page. </p>
-                <a href="http://doc.gold.ac.uk/~smaje001/webdev/Website/" target="_blank">Click to view! </a>
+                <p>
+                  This project was completed as part of our Web Development
+                  module. HTML, CSS and Javascript was used to create a 5 page
+                  newsletter that was responsive. The pages included: Homepage,
+                  JK Rowling, Harry Potter, Fantastic Beasts, The Cursed Child.
+                  Each page featured a list of articles that was revelant to the
+                  chosen page.
+                </p>
+                <a
+                  href="http://doc.gold.ac.uk/~smaje001/webdev/Website/"
+                  target="_blank"
+                  >Click to view!
+                </a>
               </div>
             </div>
             <!-- CARD #2 -->
             <div class="project-card">
               <div class="project-image">
-                <img src= "image/softwareProject.PNG">
+                <img src="image/softwareProject.PNG" />
               </div>
               <div class="project-content">
                 <h4>SecuriT</h4>
-                <p>This is a software engineering group project that is currently ongoing. We have chosen to develop a parental control app for android mobiles, using Java as the main programming language. Using the agile method, we are learning about the process of developing an app by completing each of the various stages such as market research, design, testing and coding. So far we have completed:<br>
-                  - a market study that has lead to finding stakeholers for our app<br>
-                  - concept design models(UML User Case, Sequence and Activity diagrams) for our app and each stakeholder <br>
-                  - low and high fidelity prototypes (using Adobe XD)<br>
-                  - collected feedback from our stakeholders for both prototypes and analysed this data so we are more onformed on how to improve our design and proceed with development<br>
-                This process also teaches us how to correctly write technical specifications and reports in a way that is detailed and informative. Our app with consist of features such as location, scheduling, panic button (for emergencies) and app access to restrict certain apps for a period of time. </p>
+                <p>
+                  This is a software engineering group project that is currently
+                  ongoing. We have chosen to develop a parental control app for
+                  android mobiles, using Java as the main programming language.
+                  Using the agile method, we are learning about the process of
+                  developing an app by completing each of the various stages
+                  such as market research, design, testing and coding. So far we
+                  have completed:<br />
+                  - a market study that has lead to finding stakeholers for our
+                  app<br />
+                  - concept design models(UML User Case, Sequence and Activity
+                  diagrams) for our app and each stakeholder <br />
+                  - low and high fidelity prototypes (using Adobe XD)<br />
+                  - collected feedback from our stakeholders for both prototypes
+                  and analysed this data so we are more onformed on how to
+                  improve our design and proceed with development<br />
+                  This process also teaches us how to correctly write technical
+                  specifications and reports in a way that is detailed and
+                  informative. Our app with consist of features such as
+                  location, scheduling, panic button (for emergencies) and app
+                  access to restrict certain apps for a period of time.
+                </p>
               </div>
             </div>
             <!-- CARD #3 -->
             <div class="project-card">
               <div class="project-image">
-                <img src= "image/gameProject.PNG">
+                <img src="image/gameProject.PNG" />
               </div>
               <div class="project-content">
                 <h4>Game Project</h4>
-                <p>This game was used to learn p5.js. We created a Mario-like side scroller game that implemented features such as advanced loops and arrays, objects, conditionals and constructor functions. The aim of the game is to collect the lollipops, avoid the canyons and reach the flag to finish the game. </p>
-                <a href="http://doc.gold.ac.uk/~smaje001/GameProject/FINAL/" target="_blank">Click to play!</a>
+                <p>
+                  This game was used to learn p5.js. We created a Mario-like
+                  side scroller game that implemented features such as advanced
+                  loops and arrays, objects, conditionals and constructor
+                  functions. The aim of the game is to collect the lollipops,
+                  avoid the canyons and reach the flag to finish the game.
+                </p>
+                <a
+                  href="http://doc.gold.ac.uk/~smaje001/GameProject/FINAL/"
+                  target="_blank"
+                  >Click to play!</a
+                >
               </div>
             </div>
-
           </div>
         </div>
         <div class="side-content-sm"></div>
@@ -129,12 +301,12 @@
               <li class="li-skills">HTML</li>
               <li class="li-skills">CSS</li>
               <li class="li-skills">Node.js</li>
-              <li class="li-skills">p5.js</li>
+              <!-- <li class="li-skills">p5.js</li> -->
               <li class="li-skills">Python</li>
               <li class="li-skills">MySQL</li>
               <li class="li-skills">Software Development</li>
               <li class="li-skills">Web Development</li>
-              <li class="li-skills">Microsoft Word, Excel and Powerpoint</li>
+              <!-- <li class="li-skills">Microsoft Word, Excel and Powerpoint</li> -->
               <li class="li-skills">Teamwork</li>
               <li class="li-skills">Willingness to learn</li>
               <li class="li-skills">Problem Solving</li>
@@ -147,7 +319,7 @@
 
       <!-- BEGIN CONTACT -->
 
-      <div class="row blue">
+      <!-- <div class="row blue">
         <div class="side-content"></div>
         <div class="main-content">
           <div class="content-header">
@@ -164,15 +336,14 @@
           </div>
         </div>
         <div class="side-content"></div>
-      </div>
+      </div> -->
       <!-- END CONTACT -->
 
       <!-- BEGIN FOOTER -->
       <div class="row">
         <div class="side-content"></div>
         <div class="main-content">
-          <div class="content-header">
-          </div>
+          <div class="content-header"></div>
           <div class="content-body">
             <p>Copyright Sara Majeed 2019</p>
           </div>
@@ -180,7 +351,8 @@
         <div class="side-content"></div>
       </div>
       <!-- END FOOTER -->
-
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="custom.js"></script>
   </body>
 </html>
