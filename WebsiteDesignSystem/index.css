@@ -1,0 +1,165 @@
+body {
+    background-color: lightgray;
+    width: 90%;
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+
+/* COLOURS */
+
+#colours div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.blackCoffee {
+    background-color: #3A2E39;
+    margin-left: 100px;
+}
+
+.tealBlue {
+    background-color: #1E555C;
+}
+
+.tealBlue a, .blackCoffee a {
+    color: wheat;
+}
+
+.cinderella a, .manhattan a, .radicalRed a{
+    color: black;
+}
+
+.cinderella {
+    background-color: #F4D8CD;
+}
+
+.manhattan {
+    background-color: #EDB183;
+}
+
+.radicalRed {
+    background-color: #F15152;
+}
+
+.colourLabel {
+    margin-top: 50px;
+}
+
+#colours a:hover{
+    color: blue;
+    
+}
+
+#colours div:hover{
+    box-shadow: 5px 5px;
+
+}
+
+
+/* FONTS */
+
+.fontName {
+    text-align: center;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+#fonts div{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.sourceCode {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sourceCodeExtraLight {
+    font-weight: 200;
+}
+
+.sourceCodeRegItalic {
+    font-style: italic;
+}
+
+.sourceCodeBold {
+    font-weight: 700;
+}
+
+.firaSans {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.firaSansExtraLight {
+    font-weight: 200;
+}
+
+.firaSansRegItalic {
+    font-style: italic;
+}
+
+.firaSansBold {
+    font-weight: 700;
+}
+
+.mali {
+    font-family: 'Mali', cursive;
+}
+
+.maliExtraLight {
+    font-weight: 200;
+}
+
+.maliRegItalic {
+    font-style: italic;
+}
+
+.maliBold {
+    font-weight: 700;
+}
+
+/* TEXT STYLES */
+
+#text div {
+    display: inline-block;
+    margin: 0 50px;
+    vertical-align: middle;
+}
+
+.h1Heading h1{
+    font-size: 36px;
+}
+
+.h2Sub h2 {
+    font-size: 30px;
+}
+
+.paragraph p, ul li {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
