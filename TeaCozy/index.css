@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+/* NAV */
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;  
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+li a {
+    color: seashell;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+
+
+/* MISSION */
+
+.mission {
+    background-image: url(images/img-mission-background.jpeg);
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 1200px;
+    background-color: black;
+}
+
+
+/* TEA OF THE MONTH */
+
+.teaOfMonth {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teaOfMonthHeading {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.teaOfMonth figure img{
+    height: 200px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.gallery {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery figure {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+figcaption h4 {
+    margin-top: 10px;
+}
+
+
+/* LOCATIONS */
+
+.locations-container {
+    background-image: url(images/img-locations-background.jpeg);
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.locations-container h2 {
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.locations {
+    display: inline-flex;
+}
+
+.downtown, .eastBayside, .oakdale {
+    width: 300px;
+    margin-right: 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+.address {
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+
+/* FOOTER */
+
+.contact{
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
